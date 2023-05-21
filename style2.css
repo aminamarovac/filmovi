@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glavni {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(0, 157, 255);
+  display: flex;
+  z-index: 999.9;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 31px;
+}
+ul a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+ul li {
+  list-style-type: none;
+}
+
+.logo {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  top: 6px;
+}
+.logo img {
+  border-radius: 120%;
+  width: 90px;
+  height: 75px;
+}
+
+.div {
+  min-height: 76vh;
+  width: 100%;
+  background-color: rgb(248, 218, 239);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+textarea:hover {
+  background-color: rgb(248, 218, 239);
+}
+
+footer {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(0, 157, 255);
+  display: flex;
+  color: rgb(248, 218, 239);
+  text-align: center;
+  padding: 20px;
+}
+
+.podaci {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+.dva {
+  text-align: center;
+  width: 45%;
+  height: 100%;
+}
+.ik {
+  width: 25%;
+  height: 100%;
+}
+#ikona {
+  color: rgb(1, 36, 61);
+  margin: 6px;
+}
+
+.info {
+  width: 50%;
+  color: rgb(17, 26, 105);
+  height: 65vh;
+  position: relative;
+  left: 10%;
+  padding: 50px;
+  top: -30px;
+}
+
+label {
+  margin: 6px;
+  color: rgb(17, 26, 105);
+}
+
+input {
+  margin: 6px;
+  border: 1px solid rgb(17, 26, 105);
+  border-radius: 100px;
+  height: 30px;
+  color: rgb(17, 26, 105);
+  background-color: rgba(0, 157, 255, 0.5);
+}
+
+textarea {
+  margin: 6px;
+  background-color: rgba(0, 157, 255, 0.5);
+}
+
+.naslov {
+  width: 100%;
+  height: 10%;
+  position: relative;
+  top: 7%;
+  left: 30%;
+  text-align: center;
+}
+
+.drugi {
+  width: 30%;
+  position: relative;
+  left: 9%;
+  top: 180px;
+  height: 35vh;
+  background-color: rgba(0, 157, 255, 0.5);
+  border: 3px dashed rgb(17, 26, 105);
+  color: rgb(149, 95, 118);
+  font-size: 19px;
+  padding: 25px;
+}
+p {
+  position: relative;
+  top: 15%;
+  margin: 5px;
+}
+i {
+  margin: 5px;
+  color: rgb(248, 218, 239);
+}
+
+.div:hover {
+  background-color: rgba(0, 157, 255, 0.2);
+}

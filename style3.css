@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.glavni{
+    width: 100%;
+    height: 124vh;
+    font-family: "Open Sans", sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(0, 157, 255);
+    display: flex; 
+    z-index: 999.9;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    gap: 31px;
+}
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+ul li{
+    list-style-type: none;
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    top: 6px;
+}
+.logo img{
+    border-radius: 120%;
+    width: 90px;
+    height: 75px;
+}
+
+.div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(248, 218, 239);
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url(deli.jpg);
+    background-size: cover;
+
+}
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(0, 157, 255);
+    display: flex;
+    color:  rgb(248, 218, 239);
+    text-align: center;
+    padding: 20px;
+} 
+
+.podaci{
+width: 30%;
+height: 100%;
+text-align: center;
+} 
+
+.dva{
+text-align: center;
+width: 45%;
+height: 100%;
+}
+.ik{
+width: 25%;
+height: 100%;
+}
+#ikona{
+color: rgb(1, 36, 61);
+margin: 6px;
+} 
+
+#error{
+    color: rgb(189, 0, 0);
+}
+
+.inputi{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 157, 255,0.3);
+    position: relative;
+    border: 2px solid rgb(37, 49, 149);
+    color:  rgb(248, 218, 239);
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    top: 6%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+}
+label {
+    margin: 4px;
+}
+
+input{
+    margin: 4px;
+    width: 250px;
+    height: 25px;
+}
+
+#registerBtn{
+    width: 140px;
+    height: 50px;
+    background-color:rgb(0, 157, 255);
+    color:   rgb(17, 26, 105);
+    border: 2px solid  rgb(17, 26, 105);
+    font-size: 19px;
+}
+
+h2{
+    text-decoration: overline underline;
+}
+
+button a{
+    text-decoration: none;
+    color:rgb(248, 218, 239);
+}

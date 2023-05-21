@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app3.js" defer></script>
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Projekat</title>
+  </head>
+  <body>
+    <div class="glavni">
+      <nav>
+        <ul>
+          <li><a id="prvi" href="pocetna.html">Početna</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a class="trecijs" href="registracija.html">Registracija</a></li>
+          <li><a href="omeni.html">O meni</a></li>
+          <li><a href="preporuke.html"> Preporuke</a></li>
+        </ul>
+        <div class="logo">
+          <img src="logo.png" alt="" />
+        </div>
+      </nav>
+      <div class="div">
+        <div class="inputi">
+          <div class="text">
+            <h2>Registracija</h2>
+            <br />
+            <p>
+              Najbolji strani filmovi.Ukoliko ste u nedoumici oko <br />
+              filmova,budite slobodni da nas kontaktirate.<br />Turkiflex vam
+              nudi najbolje rešenje.<br />Zajedno možemo pronaći filmove po
+              vašem ukusu.
+            </p>
+            <br />
+            <form onsubmit="submit()">
+              <label for="username">Korisničko ime:</label><br />
+              <input type="text" id="username" onblur="validateUsername()" />
+              <div id="usernameError" style="color: red"></div>
+              <label for="name">Ime:</label><br />
+              <input type="text" id="name" onblur="validateName()" />
+              <div id="nameError" style="color: red"></div>
+              <label for="surname">Prezime:</label><br />
+              <input type="text" id="surname" onblur="validateSurname()" />
+              <div id="surnameError" style="color: red"></div>
+              <label for="email">Email:</label><br />
+              <input type="text" id="email" onblur="validateEmail()" />
+              <div id="emailError" style="color: red"></div>
+              <label for="password">Lozinka:</label><br />
+              <input
+                type="password"
+                id="password"
+                onblur="validatePassword()"
+              />
+              <div id="passwordError" style="color: red"></div>
+              <label for="">Unesite datum rođenja:</label><br />
+              <input type="date" placeholder="date" /><br /><br />
+              <button
+                type="submit"
+                id="registerBtn">
+                <a href="./poruka.html" target="_blank"
+                >Registruj se</a
+              >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="podaci">
+          <h3>TURKIFLEX</h3>
+          <h4>Novi Pazar,Srbija</h4>
+        </div>
+        <div class="dva">
+          <h4>Kontakt:+381631387323</h4>
+          <h4>E-mail:aminamarovac900@gmail.com</h4>
+        </div>
+        <div class="ik">
+          <i class="fa fa-phone-square" aria-hidden="true" id="ikona"></i>
+          <i class="fa fa-envelope" aria-hidden="true" id="ikona"></i>
+          <i class="fa fa-film" aria-hidden="true" id="ikona"></i>
+          <i class="fa fa-share" aria-hidden="true" id="ikona"></i>
+          <i class="fa fa-thumbs-o-up" aria-hidden="true" id="ikona"></i>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
